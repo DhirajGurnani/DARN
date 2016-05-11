@@ -29,13 +29,7 @@
     <div class="signup-wrapper">
         <h1>You can help us grow more!!</h1>
         <form name="insertClient">
-        <input type="text" class="textbox-control" name="ssn" id="ssn" placeholder="SSN"    placeholder="###-##-####" ng-model="ssn" ng-maxlength=9 ng-minlength=9 maxlength=9 ng-pattern="/[0-9]/"
-               required />
-            <span>
-                <span style="color:maroon" ng-show="insertClient.ssn.$error.maxlength || insertClient.ssn.$error.minlength"> SSN must be 9 digit long</span>
-            <span style="color:maroon" ng-show="insertClient.ssn.$error.required && insertClient.ssn.$dirty">SSN is required</span>
-            <span style="color:maroon" ng-show="insertClient.ssn.$error.pattern">SSN must contain numbers only</span>
-            </span></br></br>
+        
         <input type="text" class="textbox-control" name="city" id="email" placeholder="City" required ng-model="city"></br></br>
         <input type="text" class="textbox-control"name="password" id="inputPassword" placeholder="Disease" required ng-model="disease"></br></br>
         <div class="signup-wrapper">
